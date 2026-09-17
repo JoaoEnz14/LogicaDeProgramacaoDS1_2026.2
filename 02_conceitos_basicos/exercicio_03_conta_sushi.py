@@ -10,3 +10,6 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_total=float(input("Valor consumido"))
+taxa_garcom= valor_total * 0.10
+print(f"Valor da conta com a taxa de serviço{valor_total+taxa_garcom:.2f}")
