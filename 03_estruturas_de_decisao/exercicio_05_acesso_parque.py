@@ -11,4 +11,11 @@ Receba a idade do visitante (valor base do ingresso: R$ 100,00):
 Imprima o tipo de bilhete e o valor final a pagar.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo
+idade = float(input("Digite sua idade"))
+if idade>12 and idade<60:
+    print("A sua faixa etária é integral,valor do ingresso 100 R$")
+elif idade<12:
+    print("A sua faixa etária é infantil,valor do ingresso 50 R$")
+elif idade>=60:
+    print("A sua faixa etária é a melhor idade,seu ingresso e gratuito")
