@@ -8,4 +8,6 @@ Utilize repetição para exibir a frase "Feliz natal!" repetindo a letra 'a'
 da palavra natal exatamente I vezes (ex: I=5 -> "Feliz nataaaal!").
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo
+I = int(input("Digite o nivel de empolgação"))
+print("feliz nat" + "a" * I + ("l"))
